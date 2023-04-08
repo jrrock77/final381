@@ -1,5 +1,5 @@
 ---
-title: "AI Predicted Bobsled Run Velocities"
+title: "Video Analysis of Bobsled Starts"
 ---
 
 This [video](https://github.com/jrrock77/knes381/blob/main/Bobsled%20Start%20Comparison.mp4) is a comparison of two individual bobsled starts. 
