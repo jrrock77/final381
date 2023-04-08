@@ -14,13 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Kinesiology 381 Computer applications in Kinesiology
-email: rjholash@ucalgary.ca
+email: ethan.roczkowsky@ucalgary.ca
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: DrHolash
-github_username: rjholash
+#twitter_username: DrHolash. - removed as not needed
+github_username: jrrock77
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" "default"
 search: true
 
@@ -59,34 +56,36 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Dr. John Holash"
-  avatar : "/assets/images/new-bio-photo.jpg"
-  bio    : "Assistant Professor (Teaching) Exercise Physiologist Computational Biology."
+  name   : "Ethan Roczkowsky"
+  avatar : "/assets/images/64445655_10157833561101320_3478643482187268096_n.jpeg"
+  bio    : "Bachelors of Kinesiology with Honours, Embedded Certificate in Pluralism and Global Citizenship."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+  #  - label: "Website"
+ #     icon: "fas fa-fw fa-link"
+#      url: "https://"
+ #   - label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+ #     url: "https://twitter.com/"
+ #   - label: "GitHub"
+ #     icon: "fab fa-fw fa-github"
+  #    url: "https://github.com/"
+  #  - label: "Instagram"
+   #   icon: "fab fa-fw fa-instagram"
+   #   url: "https://instagram.com/"
+# removed all links from bio
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+#footer:
+#  links:
+   # - label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+   #   url: "https://twitter.com/"
+  #  - label: "GitHub"
+  #    icon: "fab fa-fw fa-github"
+   #   url: "https://github.com/"
+   # - label: "Instagram"
+   #   icon: "fab fa-fw fa-instagram"
+    #  url: "https://instagram.com/"
+# removed footer links
 
 defaults:
    #_posts
@@ -96,10 +95,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: "_pages"
